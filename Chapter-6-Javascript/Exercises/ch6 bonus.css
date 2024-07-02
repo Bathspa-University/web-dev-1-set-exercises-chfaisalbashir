@@ -1,0 +1,61 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d0e7fe;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Heading Styles */
+h1 {
+    color: #180e28;
+}
+
+/* Color Display Styles */
+#colorDisplay {
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+/* Option Styles */
+.option {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Message Styles */
+#message {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+/* Score Styles */
+#score {
+    margin-top: 20px;
+}
+
+/* Reset Button Styles */
+#resetButton {
+    padding: 10px 20px;
+    background-color: #06366a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0s;
+}
+
+#resetButton:hover {
+    background-color: #1268c5;
+}
